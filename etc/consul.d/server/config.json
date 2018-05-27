@@ -1,0 +1,11 @@
+{
+    "bootstrap": false,
+    "server": true,
+    "datacenter": "sgp1",
+    "data_dir": "/var/consul",
+    "encrypt": "== nodes in consul cluster must have the same encrypt key ==",
+    "log_level": "INFO",
+    "enable_syslog": true,
+    "start_join": ["== other server node ips ==", "ip", "ip"],
+    "advertise_addr": "== ip that expose for other server nodes"
+}

@@ -1,0 +1,10 @@
+{
+	"bootstrap": true,
+	"server": true,
+	"datacenter": "sgp1",
+	"data_dir": "/var/consul",
+	"encrypt": "== get it via cmd: $ consul keygen ==",
+	"log_level": "INFO",
+	"enable_syslog": true,
+	"advertise_addr": "== ip that expose for other server nodes"
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Consul Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/local/bin/consul agent -config-dir /etc/consul.d/server
